@@ -11,3 +11,20 @@
     (e.g. PetApi, PetApiController and Pet)
     
     NOTE that in this step you should solve the import issues due to the swagger auto generation
+
+## Plugins
+
+The template contains the following plugins:
+
+  * jacoco
+
+    https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin
+
+    Provides code coverage metrics for Java code via integration with JaCoCo.
+    You can create the report by running the following command:
+
+    ```bash
+      $ mvn clean test
+    ```
+
+    The report will be created in target/site/jacoco/index.html subdirectory in your project directory.
